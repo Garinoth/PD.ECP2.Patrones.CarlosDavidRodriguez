@@ -13,8 +13,7 @@ public class ComandoRestar extends ComandoGeneral {
     
     @Override
     public void execute() {
-        int valor = IO.in.readInt();
-        this.getCalculadora().restar(valor);
+        this.getCalculadora().restar(IO.in.readInt());
     }
 
 }

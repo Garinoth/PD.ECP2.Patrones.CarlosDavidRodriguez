@@ -13,8 +13,6 @@ public class ComandoSumar extends ComandoGeneral {
 
     @Override
     public void execute() {
-        int valor = IO.in.readInt();
-        this.getCalculadora().sumar(valor);
-
+        this.getCalculadora().sumar(IO.in.readInt());
     }
 }

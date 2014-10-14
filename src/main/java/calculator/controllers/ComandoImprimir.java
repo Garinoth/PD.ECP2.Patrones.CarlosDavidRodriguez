@@ -13,8 +13,7 @@ public class ComandoImprimir extends ComandoGeneral {
 
     @Override
     public void execute() {
-        int total = this.getCalculadora().getTotal();
-        IO.out.println(total);
+        IO.out.println(this.getCalculadora().getTotal());
     }
 
 }
