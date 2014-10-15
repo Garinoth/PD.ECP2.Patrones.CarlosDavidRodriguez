@@ -24,7 +24,7 @@ public class MainCalculadoraMementable {
         this.gestorComandos.add(new ComandoIniciar(calc));
         this.gestorComandos.add(new ComandoImprimir(calc));
         this.gestorComandos.add(new ComandoGuardar(calc, gestorMementos));
-        this.gestorComandos.add(new ComandoDeshacer(calc, gestorMementos)); 
+        this.gestorComandos.add(new ComandoDeshacer(calc, gestorMementos));
         
     }
 

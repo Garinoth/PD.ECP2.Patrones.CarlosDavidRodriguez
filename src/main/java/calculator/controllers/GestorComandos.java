@@ -17,4 +17,10 @@ public class GestorComandos {
     public String[] keys() {
         return this.comandos.keySet().toArray(new String[0]);
     }
+
+    @Override
+    public String toString() {
+        return "GestorComandos [comandos=" + comandos.toString() + "]";
+    }
+    
 }

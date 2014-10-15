@@ -9,6 +9,7 @@ public abstract class ComandoGeneral implements Comando {
     
     public ComandoGeneral(Calculadora calculadora, String name) {
         this.calculadora = calculadora;
+        this.name = name;
     }
     
     @Override
